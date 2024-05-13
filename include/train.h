@@ -5,7 +5,7 @@
 class Train {
  private:
   bool arr[1000] = {false};
-  int first = 0, last = 0, now = 0, countOp = 0;
+  int first = 0, last = 0, now = 0, opCount = 0;
   bool start = false, check = false;
 
  public:
